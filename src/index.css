@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 800px;
+  height: auto;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+
+.positions-container {
+  width: 100%;
+  border: 1px solid #999;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.position {
+  padding: 10px 20px;
+  background: rgb(12, 90, 208);
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.active-position {
+  background: rgb(5, 58, 137);
+}
+
+.employee-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.employee {
+  width: 100%;
+  display: flex;
+  margin: 15px 0;
+  border: 1px solid rgb(209, 205, 205);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.employee-img {
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.employee-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.employee-name {
+  width: 100%;
+  border-bottom: 2px solid rgb(12, 90, 208);
+  color: rgb(8, 64, 148);
+}
+
+.employee-position {
+  color: #222;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.employee-bio {
+  font-size: 16px;
+  color: #666;
+}
